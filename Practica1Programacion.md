@@ -25,11 +25,12 @@
 
 ### Ejercicio 1.
 
-Los ***números cadena*** son creados al sumar continuamente el cuadrado de cada dígito de un número para formar otro. Por ejemplo, si se tiene el número 44, se procede a elevar cada uno de sus dígitos al cuadrado y la suma de ellos resulta en 32 $(4^2+4^2 = 16 + 16 = 32)$. Luego se hace lo mismo con el 32 $(3^2 + 2^2 = 13)$ y así sucesivamente. Por ejemplo: 
+Los ***números cadena*** son creados al sumar continuamente el cuadrado de cada dígito de un número para formar otro. Por ejemplo, si se tiene el número 44, se procede a elevar cada uno de sus dígitos al cuadrado y la suma de ellos resulta en 32 <img src="http://www.sciweavers.org/tex2img.php?eq=4%5E2%2B4%5E2%20%3D%2016%20%2B%2016%20%3D%2032&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="4^2+4^2 = 16 + 16 = 32" width="192" height="19" />. Luego se hace lo mismo con el 32 <img src="http://www.sciweavers.org/tex2img.php?eq=3%5E2%20%2B%202%5E2%20%3D%2013&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="3^2 + 2^2 = 13" width="106" height="19" /> y así sucesivamente. Por ejemplo: 
 
-44\rightarrow 32\rightarrow 13\rightarrow 10\rightarrow \mathbf{1}\rightarrow \mathbf{1}
 
-$85\rightarrow \mathbf{89}\rightarrow 145\rightarrow 42\rightarrow 20\rightarrow 4\rightarrow 16\rightarrow 37\rightarrow 58\rightarrow \mathbf{89}$
+<img src="http://www.sciweavers.org/tex2img.php?eq=44%5Crightarrow%2032%5Crightarrow%2013%5Crightarrow%2010%5Crightarrow%20%5Cmathbf%7B1%7D%5Crightarrow%20%5Cmathbf%7B1%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="44\rightarrow 32\rightarrow 13\rightarrow 10\rightarrow \mathbf{1}\rightarrow \mathbf{1}" width="242" height="15" />
+
+<img src="http://www.sciweavers.org/tex2img.php?eq=85%5Crightarrow%20%5Cmathbf%7B89%7D%5Crightarrow%20145%5Crightarrow%2042%5Crightarrow%2020%5Crightarrow%204%5Crightarrow%2016%5Crightarrow%2037%5Crightarrow%2058%5Crightarrow%20%5Cmathbf%7B89%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="85\rightarrow \mathbf{89}\rightarrow 145\rightarrow 42\rightarrow 20\rightarrow 4\rightarrow 16\rightarrow 37\rightarrow 58\rightarrow \mathbf{89}" width="454" height="15" />
 
 Una vez que la cadena llegue a **1** u **89**, la cadena queda en un ciclo infinito como los mostrados en los ejemplos anteriores. Es interesante notar que al comenzar CUALQUIER número entero positivo, eventualmente llegará a 1 (llamado número ***feliz***) u 89 (llamado número ***infeliz***)
 
@@ -57,7 +58,7 @@ Muestre un ejemplo en la cual el caracol salga del pozo, y otro donde esto no su
 
 Realice un programa que genere la suma dada por la siguiente serie:
 
-$S = (1-x)^{2}-\frac{(1-x)^{4}}{3!}+\frac{(1-x)^{6}}{5!}-\frac{(1-x)^{8}}{7!}+...$
+<img src="http://www.sciweavers.org/tex2img.php?eq=S%20%3D%20%281-x%29%5E%7B2%7D-%5Cfrac%7B%281-x%29%5E%7B4%7D%7D%7B3%21%7D%2B%5Cfrac%7B%281-x%29%5E%7B6%7D%7D%7B5%21%7D-%5Cfrac%7B%281-x%29%5E%7B8%7D%7D%7B7%21%7D%2B...&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="S = (1-x)^{2}-\frac{(1-x)^{4}}{3!}+\frac{(1-x)^{6}}{5!}-\frac{(1-x)^{8}}{7!}+..." width="403" height="46" />
 
 Como condiciones debe verificar que se cumpla que el valor de **x** leída como dato sea **0<x<1**. Obligatoriamente debe generar el término **N-ésimo* a partir del termino anterior (en este caso como una unidad y no viéndolo como la generación del numerador y el denominador por serparado) y detenga el cálculo cuando el último término, en valor absoluto, sumado sea menor que una tolerancia dada.
 
@@ -71,9 +72,9 @@ La búsqueda (o método) de la **Sección dorada** es una técnica para hllar el
 
 Dicho método se basa en calcular dos puntos **L** y **M** interiores al intervalo (A,B) tales que: 
 
-$L = A + 0,382(B-A)$ y $M = A + 0,618 (B -A)$
+<img src="http://www.sciweavers.org/tex2img.php?eq=L%20%3D%20A%20%2B%200%2C382%28B-A%29%24%20y%20%24M%20%3D%20A%20%2B%200%2C618%20%28B%20-A%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="L = A + 0,382(B-A)$ y $M = A + 0,618 (B -A)" width="374" height="19" />
 
-Si $f(L)>f(M)$ entonces 
+Si <img src="http://www.sciweavers.org/tex2img.php?eq=f%28L%29%3Ef%28M%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="f(L)>f(M)" width="94" height="19" /> entonces 
 $A = L;\; \;  L = M \; \; y \; \; M = A + 0,618(B-A)$
 
 

@@ -27,7 +27,7 @@
 
 Los ***números cadena*** son creados al sumar continuamente el cuadrado de cada dígito de un número para formar otro. Por ejemplo, si se tiene el número 44, se procede a elevar cada uno de sus dígitos al cuadrado y la suma de ellos resulta en 32 $(4^2+4^2 = 16 + 16 = 32)$. Luego se hace lo mismo con el 32 $(3^2 + 2^2 = 13)$ y así sucesivamente. Por ejemplo: 
 
-$44\rightarrow 32\rightarrow 13\rightarrow 10\rightarrow \mathbf{1}\rightarrow \mathbf{1}$
+44\rightarrow 32\rightarrow 13\rightarrow 10\rightarrow \mathbf{1}\rightarrow \mathbf{1}
 
 $85\rightarrow \mathbf{89}\rightarrow 145\rightarrow 42\rightarrow 20\rightarrow 4\rightarrow 16\rightarrow 37\rightarrow 58\rightarrow \mathbf{89}$
 
